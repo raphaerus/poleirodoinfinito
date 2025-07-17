@@ -4,9 +4,9 @@
 import clsx from 'clsx';
 import { useEffect, useRef, useState } from 'react';
 
-import { useBlogStats, useUpdateBlogStats } from 'hooks';
+// import { useBlogStats, useUpdateBlogStats } from 'hooks';
 
-import { Stats, StatsType } from '@prisma/client';
+import { StatsType } from '@prisma/client';
 
 import { Twemoji } from '@/components/ui';
 
@@ -26,7 +26,7 @@ interface ReactionsProps {
 
 const MAX_REACTIONS = 5;
 
-const REACTIONS: Array<{ emoji: string; key: keyof Stats }> = [
+const REACTIONS: Array<{ emoji: string; key: string }> = [
   { emoji: 'sparkling-heart', key: 'loves' },
   { emoji: 'clapping-hands', key: 'applauses' },
   { emoji: 'bullseye', key: 'bullseye' },
@@ -112,12 +112,12 @@ const Reaction = (props: ReactionProps) => {
 const Reactions = (props: ReactionsProps) => {
   const { type, slug, className } = props;
 
-  const [stats, isLoading] = useBlogStats(type, slug);
+  // const [stats, isLoading] = useBlogStats(type, slug);
 
-  const [reactions, setReactions] = useState({});
-  const [initialReactions, setInitialReactions] = useState({});
+  const [reactions, setReactions] = useState({} as Record<string, number>);
+  const [initialReactions, setInitialReactions] = useState({} as Record<string, number>);
 
-  const updateReaction = useUpdateBlogStats();
+  // const updateReaction = useUpdateBlogStats();
 
   useEffect(() => {
     try {
@@ -136,7 +136,7 @@ const Reactions = (props: ReactionsProps) => {
   }, []);
 
   const handleOnSave = (key: string) => {
-    updateReaction({ slug, type, [key]: stats[key] + reactions[key] - initialReactions[key] });
+    // updateReaction({ slug, type, [key]: (stats ? stats[key] : 0) + reactions[key] - initialReactions[key] });
 
     localStorage.setItem(`${type}/slug`, JSON.stringify(reactions));
   };
@@ -145,10 +145,10 @@ const Reactions = (props: ReactionsProps) => {
     <div className={clsx('flex items-center gap-6', className)}>
       {REACTIONS.map(({ key, emoji }) => (
         <Reaction
-          key={key}
+          key={String(key)}
           emoji={emoji}
-          reactions={reactions[key]}
-          value={isLoading ? '--' : stats[key] + reactions[key] - initialReactions[key]}
+          reactions={reactions[key] || 0}
+          value={'--' /* Como não temos stats, mostramos -- */}
           onSave={() => handleOnSave(key)}
           onReact={(value) => setReactions((reactions) => ({ ...reactions, [key]: value }))}
         />

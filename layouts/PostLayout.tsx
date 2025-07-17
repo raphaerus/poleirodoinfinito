@@ -61,11 +61,7 @@ export default function PostLayout(props: LayoutProps) {
         <footer>
           <BlogNav next={next} prev={prev} />
 
-          {siteMetadata.comments && (
-            <div className="pb-6 pt-6 text-center text-gray-700 dark:text-gray-300" id="comment">
-              <Comments />
-            </div>
-          )}
+          {siteMetadata.comments?.provider && <Comments />}
         </footer>
         {/*END: Footer*/}
       </article>

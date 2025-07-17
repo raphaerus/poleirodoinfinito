@@ -1,10 +1,23 @@
 const ShortDescription = () => {
   return (
     <div className="mb-4 mt-4">
-      <p>I started learning to code in 2019 when I started college.</p>
-      <p>I landed my first job as a Back-end Developer in 2021.</p>
-      <p>I have a passion for JavaScript/Typescript and website development.</p>
-      <p>I started this blog to practice my skill and share my knowledge.</p>
+      <p>Eu comecei a programar quando concluí o ensino médio em 1999. </p>
+      <p>Eu comecei a trabalhar com webdesign em 2000</p>
+      <p>Eu tenho uma grande paixão por html e css</p>
+      <p>Fiz meu primeiro blog em 1999 para falar de meus jogos preferidos</p>
+      <p>Eu comecei este blog para praticar minhas habilidades .</p>
+      <p>Amo desenhar desde criança</p>
+      <p>ainda sonho em me tornar ilustrador de livros</p>
+      <p>Eu amo aprender coisas novas </p>
+      <p>e compartilhar com as pessoas.</p>
+      <p>Eu amo escrever sobre o que eu aprendo.</p>
+      <p>Eu também amo artesanato.</p>
+      <p>Em 2020, comecei a criar cadernos costurados à mão</p>
+      <p> no isolamento da pandemia.</p>
+      <p>Desde 2017 Tenho me empenhado em frontend</p>
+      <p>Aprendi mais javascript e Reactjs</p>
+      <p>Agora estou aprendendo Typescript e Next.js</p>
+      <p>E claro, Tailwindcss</p>
     </div>
   );
 };
