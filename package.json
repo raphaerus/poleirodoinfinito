@@ -6,7 +6,7 @@
     "start": "next dev",
     "dev": "next dev",
     "postinstall": "npx prisma generate",
-    "build": "cross-env INIT_CWD=$PWD next build && cross-env NODE_OPTIONS='--experimental-json-modules' node ./scripts/postbuild.mjs",
+    "build": "next build",
     "serve": "next start",
     "analyze": "cross-env ANALYZE=true next build",
     "prepare": "husky install",
