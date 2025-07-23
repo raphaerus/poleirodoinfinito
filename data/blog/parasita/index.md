@@ -1,0 +1,21 @@
+---
+title: Parasita
+date: '2020-02-14T09:22:03.284Z'
+description: 'Um breve comentário sobre esse filme bizarro'
+---
+
+![A familia Kim em um de seus momentos iconicos dobrando caixas de pizza](./familia_kim.jpg)
+Eu assisti ontem parasita e ainda estou refletindo sobre o filme que conta essa história bizarra e macabra sobre a família Kim, a família Paik e a família da governanta e sua vida secreta.
+
+A família Kim vivia embaixo de uma casa, em um porão. Não sei ao certo se escondidos ou o quê, mas moravam na parte mais baixa de um prédio se apertando em um espaço minúsculo.
+
+Nem um deles tinha emprego, apenas dobravam tampas de caixa de pizza para uma empresa que como toda boa capitalista, explora essa mão de obra extremamente barata e frágil que mesmo assim se sente no direito de cobrar capricho no trabalho pagando com desconto uma entrega que não estava como eles esperavam.
+
+A família Kim não parece estar deprimida, mesmo com a situação deplorável que vivem, na verdade eles parecem mais felizes que as pessoas da família que seria apresentada à seguir no filme, a requintada família Park.
+A família Park entrou na vida da família Kim por pura sorte e uma dose de malandragem do nosso querido Ki woo. Woo foi convidado por seu amigo classe média a dar aulas para a bela filha do casal, mas como bom malandro, aproveitou a oportunidade conseguiu um trabalho pra sua irmão como professora de arte para o filho mais novo da família e num combo de malandragem, toda a família Kim começa a trabalhar para os Park, o que eles não contavam é que tanta malandragem não seria o suficiente para eles se darem bem pois surpreendentemente a governanta que foi sabotada por eles para que a mãe da família Kim fosse parar na casa dos Park como governanta também tinha um segredo, ela hospedava um marido secretamente nos porões da casa da família Park. A partir dai, tudo o que parecia perfeito para os Kim se desmoronou ladeira a baixo.
+
+## A QUEDA
+
+A família kim teve que sobreviver. Não havia certo e errado entre eles e a família da antiga governanta. Ambos lutavam pela vida e direito de terem suas famílias sendo alimentadas e com um teto. O marido da ex governanta PIROU, como já era de se esperar de um homem que viveu por quatro anos embaixo de uma casa. Ele e sua mulher foram amarrados para não fugirem só que Um deles fugiu e a revolução aconteceu. O morto vivo saiu do porão e devorou quem ele quis na festa. Sangue pra todo lado, quatro vítimas da família Kim furados e feridos e o patriarca da família Park assassinado. Foi um choque. O senhor kim sumiu, pois foi ele quem enfiou a faca no senhor Park. Se escondeu no porão da casa, já que ninguém sabia de sua existência e viveu lá como um prisioneiro, ditando a sua própria sentença em vez da sentença do sistema.
+
+Ki woo prometeu a si mesmo que um dia compraria a casa e encontraria seu pai outra vez. Mas a verdade é que nunca vamos saber se isso realmente se concretizou.

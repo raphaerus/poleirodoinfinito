@@ -1,0 +1,51 @@
+---
+title: 37 Segundos
+date: '2020-03-09'
+description: '37 segundos para respirar'
+---
+
+![Será que crushar esse dois vale apena até o final do filme??](./37-segundos.jpg)
+
+> AVISO: Esse texto tem muitos spoilers, então, só leia se já assistiu ou pretende assistir o filme já sabendo de seu enredo.
+
+Yuma Takeda tem Paralisia Cerebral. A mãe a trata como uma criança, mesmo ela tendo um emprego e de certa forma uma vida.
+
+O filme começa nos mostrando uma cena de muita intimidade : Yuma é despida, pela própria mãe, como se ainda fosse um bebê e toma banho junto com ela, como se a vida se limitasse a apenas elas duas. É uma cena linda mas ao mesmo tempo preocupante, pois não sabemos se a garota está feliz com isso. Ela apenas parece aceitar e deixa acontecer. Algumas vezes deixa escapar suas vontades pessoais, mas é ignorada.
+
+A mãe dela à veste. Veste como se ela fosse uma mendiga. Segundo a própria mãe, ela a veste assim pra que Yuma não seja abordada por tarados. Aos meus olhos parece uma mãe super protetora sabotando a própria filha e o ver filme dá elementos para isso.
+
+A chefe de yuma no trabalho a menospreza( em uma cena, a chefe dela paga menos do que devia com uma desculpa qualquer),a trata como inferior. Claramente tem vergonha dela mas não tem coragem de admitir.
+
+Em dado momento, Yuma decide arregaçar as mangas, se enche de coragem e parte para sua própria jornada. Uma jornada de autodescoberta em que aprendemos muito junto com ela.
+
+## A JORNADA PELA ESCALADA DE SÍ MESMA
+
+Yuma tenta se masturbar pra descobrir o prazer no próprio corpo, mas não tem espaço pra isso, pois a mãe está sempre ao seu redor.
+
+Em uma tentativa, que pode nos constranger (por sem incrivelmente natural), Yuma descobre que pode marcar encontros na internet em um site e começa a explorar essa aventura para descobrir talvez sua identidade.
+
+Seu primeiro encontro não deu muito certo. Foi então que ela se deu conta que poderia pagar pra ter um homem.
+Infelizmente também não deu certo, mas ainda assim, foi uma experiência. Isso não a abateu tanto quanto se imaginaria. Yuma surpreende e isso é muito bom.
+
+## A LIBERTAÇÃO
+
+Em algum momento, ela se liberta de uma forma muito genuína e sensível. A atuação da atriz é muito verdadeira. Às vezes nem parece que é uma personagem. Parece ser ela mesma alí. Me comove muito esse tipo de história, pois apesar de eu não ser uma menina e também de não ter paralisia cerebral e nem estar numa cadeira de rodas, eu tive uma porcetagem desse tipo de problemas. Ou seja, o problema da Yuma não é a cadeira de rodas e nem sua condição neurológica, mas das pessoas que a rodeiam e que ela permite que a limitem.
+
+Pra que ela voasse, precisaria sair do meio dessas pessoas, de forma radical. Se jogar num voo e se rodear apenas por pessoas escolhidas por ela mesma.
+O seu voo às vezes resulta em queda e a faz em pedacinhos, pedacinhos esses que agora são colhidos do chão por ela mesma .Ela percebe também que cada vez que ela se remonta, está mais forte e corajosa pra próxima parada que a vida trouxer.
+
+O mais difícil, não tanto para ela, era sair do colo da mãe. Pois essa mãe não queria perder, o que ela tinha como sua única família.
+Das poucas palavras de Yuma, as que mais me afetaram:
+
+### QUOTES
+
+> "Lá de cima a vida é um piscar de olhos.
+> Às vezes acho que eu sou uma das experiências deles."
+
+> "Posso sim. Você que não me deixa"
+
+> "Pare de me tratar como uma criança"
+
+> "Acha que está se sacrificando por mim, mas apenas é carente demais"
+
+Espero que essa breve leitura lhe faça ter vontade de assistir esse filme ou de revê-lo. É um filme sensível, para uma época em que sensibilidade anda rara, obrigado à diretora e escritora Hikari. Sei que é seu primeiro longa metragem, espero que a sua sensibilidade continue nas telas, pois eu sei que vou apreciar muito.
