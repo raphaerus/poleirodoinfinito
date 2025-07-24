@@ -6,16 +6,7 @@ import { formatDate } from 'pliny/utils/formatDate';
 
 import siteMetadata from '@/data/siteMetadata';
 import { Tag, Link, Twemoji } from '@/components/ui';
-import {
-  Avatar,
-  Heading,
-  Greeting,
-  TypedBios,
-  BlogLinks,
-  PopularTags,
-  ShortDescription,
-  SpotifyNowPlaying,
-} from '@/components/homepage';
+import { Avatar, Heading, Greeting, TypedBios, ShortDescription } from '@/components/homepage';
 
 const MAX_DISPLAY = 5;
 
@@ -41,17 +32,18 @@ export default function Home({ posts }) {
             <Heading />
             <TypedBios />
             <ShortDescription />
-            <BlogLinks />
+            {/*  <BlogLinks />
             <SpotifyNowPlaying />
+            */}
             <p className="flex">
-              <span className="mr-2">Happy reading</span>
+              <span className="mr-2">Aproveite a leitura !</span>
               <Twemoji emoji="clinking-beer-mugs" />
             </p>
           </div>
         </div>
       </div>
 
-      <PopularTags />
+      {/* <PopularTags /> */}
 
       {/* List all post */}
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
