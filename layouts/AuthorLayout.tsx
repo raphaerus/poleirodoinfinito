@@ -18,10 +18,10 @@ export default function AuthorLayout({ children, content }: Props) {
       <div className="about divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pb-8 pt-6 md:space-y-5">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            About
+            Sobre
           </h1>
           <p className="text-base text-gray-500 dark:text-gray-400 md:text-lg md:leading-7">
-            Further insights into who I am and the purpose of this blog.
+            Mais informações sobre quem sou eu e o propósito deste blog.
           </p>
         </div>
 
@@ -53,33 +53,56 @@ export default function AuthorLayout({ children, content }: Props) {
 
           <div className="prose max-w-none pb-8 dark:prose-dark xl:col-span-2">
             <h2>
-              Hello, folks! <Twemoji className="mx-2" emoji="waving-hand" /> I'm Trong Khanh (aka Karhdo)
+              Olá, pessoal! <Twemoji className="mx-2" emoji="waving-hand" /> EU sou Raphael Chaves
             </h2>
             <p>
-              I have a passion for <strong>JavaScript/TypeScript</strong> and website development. I'm currently a
-              fullstack developer at <strong>YouNet Media</strong>, deeply engaged in the <strong>EcomHeat</strong>{' '}
-              project, which entails market share management, competitor research, and fostering e-commerce growth. I
-              work mainly with <strong>JavaScript</strong>, <strong>TypeScript</strong>, <strong>React</strong>,{' '}
-              <strong>NodeJS</strong>, <strong>NestJS</strong>, and <strong>NextJS</strong>.
+              Eu tenho uma paixão por <strong>JavaScript/Typescript</strong> e desenvolvimento de sites. Estudo Html e
+              css desde 1999 e faço sites desde essa época.
             </p>
-            <h2>Why have this blog?</h2>
+            <p>
+              Já trabalhei em muitas empresas grandes e multinacionais com minhas habilidades de programação. Sou
+              formado em Desenvolvimento de Sistemas Web na faculdade Meta de Macapá. A primeira a ter esse curso em
+              minha cidade. Desde 2009 sou oficialmente graduado, mas sempre amei programação!
+            </p>
+            <p>
+              Estou atualmente criando meu ecosistema de negócios. Então temos uma coisa peculiar aqui: eu faço muitas
+              coisas! Além de apaixonado por Webdesign sou ilustrador, pretendo criar ilustrações para livros
+              infanto/juvenis, estou aberto a receber propostas para esses públicos.
+            </p>
+            <p>
+              Além de ilustrar, ajudo pessoas a presentearem por meio da minha loja no instagram chamada "raphakraft".
+              Lá faço cadernos artesanais personalizados.
+            </p>
+            <p>
+              Também monto e concerto computadores, na verdade faço isso desde adolescente, mas como sempre me
+              procuraram pra resolver esse tipo de problema, eu resolvi transformar em uma fonte de renda também mas
+              minha paixão nessa área é fazer com que as pessoas deixem de gastar tempo com computadores lentos, já que
+              mesmo os mais antigos estão aptos a serem turbinados.
+            </p>
+            Eu trabalho principalmente com <strong>Javascript</strong>, <strong>Typescript</strong>,{' '}
+            <strong>React</strong>, <strong>NodeJS</strong>, <strong>NestJS</strong>, <strong>Tailwind</strong> css e{' '}
+            <strong>NextJS</strong>.<h2> Por que tenho esse blog?</h2>
             <blockquote>
-              <p>My desire to practice my skills and share my acquired knowledge fuels my endeavors.</p>
+              Meu desejo é práticar e compartilhar meus conhecimentos em todas essas áreas da minha vida e talvez até
+              sobre espiritualidade e desenvolvimento pessoal, veremos, Mas nele prático o desenvolvimento web e também
+              público meus textos e ilustrações e na verdade está em aberto, pra tudo o que eu puder pôr a mão, o limite
+              é até onde a criatividade me levar.
             </blockquote>
             <p>
-              I founded this blog as a means to document and share the knowledge and practical wisdom I've acquired
-              during my journey as a software engineer.
+              Aqui estará documentada minha jornada, é como um embrião plantado, daqui muitas possibilidade se abrirão e
+              apenas assino aqui permitindo que tudo que tiver que acontecer para meu desenvolvimento, acontecerá, é um
+              tratado de seguir minha centelha.
             </p>
             <p>
-              Writing and taking notes helps me solidify my understanding of new concepts and technologies. I hope my
-              blog can be a useful resource for fellow web developers.
+              Escrever e tomar nota ajuda a solidificar conhecimento. Espero que tudo o que eu públicar aqui, ajude não
+              apenas a mim, mas a todos que vierem para no meu poleiro, que não é meu, é seu e do universo inteiro.
             </p>
             <p>
-              I would greatly appreciate your thoughts and comments on what I have written{' '}
-              <Twemoji emoji="clinking-beer-mugs" />.
+              Eu espero que todos apreciem. EM breve, talvez eu ative alguma forma de comentário, para que não apenas
+              eu, mas todos que vierem parar por aqui possam apreciar. <Twemoji emoji="clinking-beer-mugs" />.
             </p>
             <div className="flex items-center justify-between">
-              <h2>My Career</h2>
+              <h2>Minha carreira</h2>
 
               <Button as="a" href="/static/resume.pdf" target="_blank">
                 <span>Resume</span>
@@ -89,72 +112,31 @@ export default function AuthorLayout({ children, content }: Props) {
             <CareerTimeline />
             <h2>Tech stack</h2>
             <p>
-              This blog is built with{' '}
+              Este blog é feito com{' '}
               <a target="_blank" href="https://nextjs.org/">
                 Next.js
               </a>{' '}
-              and{' '}
+              e{' '}
               <a target="_blank" href="https://tailwindcss.com/">
                 Tailwind CSS
               </a>{' '}
-              using <strong>Tailwind Nextjs Starter Blog</strong>.
+              usando <strong>Tailwind Nextjs Starter Blog</strong>.
             </p>
-
             <p>
-              This blog site takes inspiration from leohuynh.dev. I appreciate{' '}
+              Este blog foi inspirado em leohuynh.dev.{' '}
               <a target="_blank" href="https://twitter.com/hta218_">
                 Leo Huynh
               </a>{' '}
-              and{' '}
+              e{' '}
               <a target="_blank" href="https://twitter.com/timlrxx">
                 Timothy Lin
               </a>{' '}
-              for their contribution to this minimal, lightweight, and highly customizable blog starter.
+              Agradeço por sua contribuição para este blog starter minimalista, leve e altamente personalizável.
             </p>
-
-            <p>A few major over-engineering-changes from the original repo:</p>
-
-            <ul>
-              <li>
-                <Twemoji className="!mr-2" emoji="atom-symbol" /> Upgrading to <strong>React 18</strong>,{' '}
-                <strong>Next 14</strong>.
-              </li>
-              <li>
-                <Twemoji className="!mr-2" emoji="party-popper" /> Adopting <strong>Typescript</strong>, committing with{' '}
-                <a target="_blank" href="https://www.conventionalcommits.org">
-                  Conventional Commits
-                </a>
-              </li>
-              <li>
-                <Twemoji className="!mr-2" emoji="bar-chart" /> Monitoring site with{' '}
-                <a target="_blank" href="https://umami.is/">
-                  Umami
-                </a>{' '}
-                website analytics
-              </li>
-              <li>
-                <Twemoji className="!mr-2" emoji="eyes" /> Theming in dark mode with{' '}
-                <a target="_blank" href="https://github.com/folke/tokyonight.nvim">
-                  Tokyonight Neovim Theme
-                </a>{' '}
-                colors for better contrast.
-              </li>
-              <li>
-                <Twemoji className="!mr-2" emoji="man-technologist" /> My website refers to the design and code from the{' '}
-                <a target="_blank" href="https://github.com/hta218/leohuynh.dev">
-                  lehuynh.dev
-                </a>{' '}
-                repository and incorporates the tailwind-nextjs-starter-blog template, version 2.0.
-              </li>
-              <li>
-                <Twemoji className="!mr-2" emoji="inbox-tray" /> Bumping up <code>mdx-bundler</code>,{' '}
-                <code>rehype</code>/<code>remark</code> plugins and dependencies to the latest version
-              </li>
-            </ul>
-
+            <p>Inspirado também na versão de [Karhdo/karhdo.dev](https://github.com/Karhdo/karhdo.dev).</p>
             <p>
-              See my{' '}
-              <a target="_blank" href="https://github.com/Karhdo/karhdo.dev">
+              Se quiser pode usar minha versão para seu blog, fique a vontade, segue meu repositório:{' '}
+              <a target="_blank" href="https://github.com/raphaerus/poleirodoinfinito">
                 repository
               </a>{' '}
               for this blog.
