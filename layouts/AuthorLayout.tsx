@@ -109,7 +109,7 @@ export default function AuthorLayout({ children, content }: Props) {
                 <Twemoji emoji="page-facing-up" />
               </Button>
             </div>
-            <CareerTimeline />
+            {/* <CareerTimeline /> */}
             <h2>Tech stack</h2>
             <p>
               Este blog é feito com{' '}
