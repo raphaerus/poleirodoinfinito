@@ -1,37 +1,41 @@
 const ShortDescription = () => {
   return (
     <div className="mb-4 mt-4">
-      <p>
-        Minha história com a criação começou antes da internet ser o que é hoje. Em 1999, ainda no calor da adolescência
-        e logo após o colégio, descobri o poder do código — e não parei mais. A primeira linha de HTML foi o começo de
-        uma jornada que mistura tecnologia, arte e paixão por aprender.
-      </p>
+      <p>Comecei a programar em 1999.</p>
 
-      <p>
-        Desde então, naveguei entre pixels e pincéis: desenhei desde criança, criei meu primeiro blog para falar de
-        videogames, e usei cada projeto como um passo rumo a algo maior. Webdesign, frontend, JavaScript, React,
-        Tailwind — cada nova ferramenta foi um novo pincel no meu estojo digital.
-      </p>
+      <p>Webdesign em 2000.</p>
 
-      <p>
-        Nos dias mais silenciosos da pandemia, enquanto o mundo parou, minhas mãos continuaram ativas: comecei a
-        costurar cadernos à mão, unindo o analógico ao digital, o artesanal ao tecnológico.
-      </p>
+      <p>Paixão por HTML e CSS desde o primeiro dia.</p>
 
-      <p>
-        Hoje, mergulho em TypeScript e Next.js com a mesma curiosidade de quem, há mais de duas décadas, escrevia suas
-        primeiras tags só para ver o que acontecia. Porque, no fim, tudo o que faço gira em torno de duas coisas: criar
-        e compartilhar.
-      </p>
+      <p>Criei meu primeiro blog para falar de jogos.</p>
 
-      <p>
-        Este espaço é meu caderno aberto — de aprendizados, experimentações e sonhos. Sim, ainda sonho em ilustrar
-        livros. E enquanto o futuro chega, sigo escrevendo, codando e fazendo as coisas com as mãos.
-      </p>
+      <p>Usava ele para praticar. E aprender.</p>
 
-      <p>
-        <em>Bem-vindo ao meu mundo.</em>
-      </p>
+      <p>Desenho desde criança.</p>
+
+      <p>Sonho em ilustrar livros.</p>
+
+      <p>Amo criar. E compartilhar.</p>
+
+      <p>Amo escrever sobre o que descubro.</p>
+
+      <p>E artesanato? Também.</p>
+
+      <p>Em 2020, comecei a costurar cadernos à mão.</p>
+
+      <p>Foi na pandemia. No isolamento. Na calma.</p>
+
+      <p>Desde 2017, foco em frontend.</p>
+
+      <p>JavaScript. React. E agora: TypeScript e Next.js.</p>
+
+      <p>Com TailwindCSS no dia a dia.</p>
+
+      <p>Este lugar? É meu caderno aberto.</p>
+
+      <p>De código. De sonhos. De aprendizados.</p>
+
+      <p>Bem-vindo.</p>
     </div>
   );
 };
