@@ -1,6 +1,7 @@
 'use client';
 
 import clsx from 'clsx';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 
 import siteMetadata from '@/data/siteMetadata';
@@ -8,7 +9,7 @@ import headerNavLinks from '@/data/headerNavLinks';
 
 import Link from '@/components/ui/Link';
 
-import Logo from 'public/static/images/logo.svg';
+import Logo from 'public/static/images/logo.png';
 
 import MobileNav from './MobileNav';
 import ThemeSwitch from './ThemeSwitch';
@@ -30,7 +31,13 @@ const Header = () => {
       <div className="mx-auto flex max-w-4xl items-center justify-between px-3 xl:max-w-5xl xl:px-0">
         <Link href="/" aria-label={siteMetadata.headerTitle} className="flex items-center">
           <div className="animate-wave">
-            <Logo className="fill-dark dark:fill-white" />
+            <Image
+              src={Logo.src} // ou só src={Logo} se for uma importação direta
+              alt={siteMetadata.headerTitle}
+              width={60} // o tamanho que deseja exibir
+              height={50} // ou use "auto" se quiser manter proporção com apenas um lado
+              priority // pré-carrega para logo
+            />
           </div>
           <div className="group ml-2 text-xl font-bold transition duration-300">
             Poleiro.do.Infinito
