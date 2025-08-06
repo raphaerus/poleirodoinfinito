@@ -37,6 +37,7 @@ const Header = () => {
               width={60} // o tamanho que deseja exibir
               height={50} // ou use "auto" se quiser manter proporção com apenas um lado
               priority // pré-carrega para logo
+              className="h-auto w-auto object-contain"
             />
           </div>
           <div className="group ml-2 text-xl font-bold transition duration-300">
