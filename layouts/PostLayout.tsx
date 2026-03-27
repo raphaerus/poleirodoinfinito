@@ -2,7 +2,7 @@ import { ReactNode } from 'react';
 import { CoreContent } from 'pliny/utils/contentlayer';
 import type { Blog, Authors } from 'contentlayer/generated';
 
-import { StatsType } from '@prisma/client';
+import type { StatsType } from '@/types/components';
 
 import siteMetadata from '@/data/siteMetadata';
 import { BlogTags, BlogMeta, BlogNav, TableOfContents, Reactions } from '@/components/blog';

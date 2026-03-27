@@ -1,45 +1,22 @@
 import type { NextRequest } from 'next/server';
 
-import type { Stats, StatsType } from '@prisma/client';
-
-import prisma from '@/servers/prisma.server';
+import type { Stats, StatsType } from '@/types/components';
 
 const getBlogStats = async (slug: string, type: StatsType): Promise<Stats> => {
-  let result: Stats | null;
-
-  result = await prisma.stats.findUnique({
-    where: {
-      type_slug: { slug, type },
-    },
-  });
-
-  if (!result) {
-    result = await prisma.stats.create({
-      data: { type, slug },
-    });
-  }
-
-  return result;
+  return {
+    type,
+    slug,
+    views: 0,
+    loves: 0,
+    applauses: 0,
+    ideas: 0,
+    bullseye: 0,
+  };
 };
 
 const updateBlogStats = async (type: StatsType, slug: string, updates: Partial<Stats>): Promise<Stats> => {
   const currentStats = await getBlogStats(slug, type);
-
-  // Safeguard against negative updates
-  for (const key in updates) {
-    if (typeof updates[key] === 'number' && updates[key] < currentStats[key]) {
-      updates[key] = currentStats[key];
-    }
-  }
-
-  const updated = await prisma.stats.update({
-    where: {
-      type_slug: { slug, type },
-    },
-    data: updates,
-  });
-
-  return updated;
+  return { ...currentStats, ...updates };
 };
 
 export async function GET(request: NextRequest) {
@@ -85,3 +62,4 @@ export async function POST(request: NextRequest) {
     return Response.json({ message: 'Internal Server Error!' }, { status: 500 });
   }
 }
+

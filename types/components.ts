@@ -1,6 +1,16 @@
 import type readingTime from 'reading-time';
 
-import type { StatsType } from '@prisma/client';
+export type StatsType = 'blog' | 'snippet';
+
+export type Stats = {
+  type: StatsType;
+  slug: string;
+  views: number;
+  loves: number;
+  applauses: number;
+  ideas: number;
+  bullseye: number;
+};
 import type projectsData from '@/data/projectsData';
 import type GiscusConfigs from './giscus-configs.type';
 
