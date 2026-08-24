@@ -4,6 +4,7 @@ const headerNavLinks = [
   // { href: '/projects', title: 'Projetos' },
   { href: '/about', title: 'Sobre' },
   { href: '/desenhos', title: 'Desenhos' },
+  { href: '/fotos', title: 'Fotos' },
   // { href: '/resume', title: 'Resume' },
 ];
 
