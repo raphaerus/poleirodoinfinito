@@ -17,6 +17,10 @@
     "jsx": "preserve",
     "baseUrl": ".",
     "paths": {
+      "@/*": ["*"],
+      "@keystatic/core": ["./node_modules/@keystatic/core/dist/keystatic-core.d.ts"],
+      "@keystatic/next/route-handler": ["./node_modules/@keystatic/next/dist/keystatic-next-route-handler.d.ts"],
+      "@keystatic/next/ui/app": ["./node_modules/@keystatic/next/dist/keystatic-next-ui-app.d.ts"],
       "@/types/*": ["types/*"],
       "@/utils/*": ["utils/*"],
       "@/constants/*": ["constants/*"],

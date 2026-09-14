@@ -19,6 +19,10 @@ import AnalyticsLink from './AnalyticsLink';
 const Header = () => {
   const pathname = usePathname();
 
+  if (pathname?.startsWith('/keystatic')) {
+    return null;
+  }
+
   let headerClass =
     'mx-auto w-full max-w-6xl supports-backdrop-blur fixed left-0 right-0 top-1 z-10 bg-white/75 py-2 backdrop-blur dark:bg-dark/75 md:rounded-2xl';
 

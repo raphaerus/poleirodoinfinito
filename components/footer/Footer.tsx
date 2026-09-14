@@ -1,6 +1,15 @@
+'use client';
+
+import { usePathname } from 'next/navigation';
 import BuildWith from '@/components/footer/BuildWith';
 
 export default function Footer() {
+  const pathname = usePathname();
+
+  if (pathname?.startsWith('/keystatic')) {
+    return null;
+  }
+
   return (
     <footer>
       <div className="mb-8 mt-16 items-center justify-between space-y-4 md:mb-10 md:flex md:space-y-0">
